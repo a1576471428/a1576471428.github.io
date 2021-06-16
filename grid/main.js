@@ -253,34 +253,31 @@ function GridComponent_nz_form_item_36_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "\u5229\u6DA6\u5954\u8DD1\u5C01\u9876\u4EF7\u683C");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "nz-form-control", 2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "nz-input-number", 4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function GridComponent_nz_form_item_36_Template_nz_input_number_ngModelChange_4_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r16); const ctx_r15 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r15.maxProfitRunPrice = $event; });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "nz-input-number", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function GridComponent_nz_form_item_36_Template_nz_input_number_ngModelChange_4_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r16); const ctx_r15 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return (ctx_r15.maxProfitRunPercent / 100 + 1) * (ctx_r15.currentPrice = $event); });
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngModel", ctx_r2.maxProfitRunPrice);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngModel", (ctx_r2.maxProfitRunPercent / 100 + 1) * ctx_r2.currentPrice)("disabled", true);
 } }
 function GridComponent_nz_form_item_37_Template(rf, ctx) { if (rf & 1) {
     const _r18 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "nz-form-item");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "nz-form-label", 1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, " \u5229\u6DA6\u5954\u8DD1\u5C01\u9876\u6DA8\u5E45\uFF08\u767E\u5206\u6BD4\uFF09 ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "span", 20);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "i", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "nz-form-control", 2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "nz-input-number", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function GridComponent_nz_form_item_37_Template_nz_input_number_ngModelChange_6_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r18); const ctx_r17 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r17.maxProfitRunPercent = $event; });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "nz-form-control", 2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "nz-input-number", 6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function GridComponent_nz_form_item_37_Template_nz_input_number_ngModelChange_4_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r18); const ctx_r17 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r17.maxProfitRunPercent = $event; });
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("nzFormatter", ctx_r3.formatterPercent)("nzParser", ctx_r3.parserPercent)("ngModel", ctx_r3.maxProfitRunPercent);
 } }
 function GridComponent_nz_form_item_38_Template(rf, ctx) { if (rf & 1) {
@@ -288,8 +285,8 @@ function GridComponent_nz_form_item_38_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "nz-form-item");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "nz-form-label", 1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, " \u7559\u5B58\u5229\u6DA6\u4EFD\u6570 ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "span", 22);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "i", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "span", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "i", 22);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "nz-form-control", 2);
@@ -599,13 +596,12 @@ class GridComponent {
         this.loading = false;
         // 利润奔跑
         this.profitRun = false;
-        this.maxProfitRunPrice = 0.700;
         this.maxProfitRunPercent = 40;
         this.leftProfitMul = 1;
         // 逐层加码
         this.weightMore = false;
         this.weight = 5;
-        this.weightStart = 2;
+        this.weightStart = 1;
         // 一网打尽
         this.allInOneGo = false;
         this.gridNum = 1;
@@ -628,7 +624,6 @@ class GridComponent {
                 weightStart: this.weightStart,
                 allInOneGo: this.allInOneGo,
                 maxProfitRunPercent: this.maxProfitRunPercent,
-                maxProfitRunPrice: this.maxProfitRunPrice,
                 leftProfitMul: this.leftProfitMul,
             });
             return {
@@ -705,7 +700,7 @@ GridComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
     } if (rf & 2) {
         var _t;
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵloadQuery"]()) && (ctx.basicTable = _t.first);
-    } }, decls: 53, vars: 23, consts: [[1, "form"], ["nzSpan", "8"], ["nzSpan", "4"], ["nz-input", "", "name", "name", 3, "ngModel", "ngModelChange"], [3, "ngModel", "ngModelChange"], [4, "ngIf"], [3, "nzFormatter", "nzParser", "ngModel", "ngModelChange"], ["nzText", "\u7F51\u683C2.0\u5BF9\u5E94\u5F00\u5173", 1, "divider"], [1, "checkbox"], ["nz-checkbox", "", 3, "ngModel", "ngModelChange"], ["class", "divider", "nzText", "\u5229\u6DA6\u5954\u8DD1\u914D\u7F6E", 4, "ngIf"], ["class", "divider", "nzText", "\u9010\u5C42\u52A0\u7801\u914D\u7F6E", 4, "ngIf"], ["class", "divider", "nzText", "\u4E00\u7F51\u6253\u5C3D\u914D\u7F6E", 4, "ngIf"], ["class", "all-in-one-go", 4, "ngIf"], [1, "buttons"], ["nz-button", "", "nzType", "primary", 1, "button", 3, "click"], ["class", "spin", "nzSimple", "", 4, "ngIf"], [1, "grid"], [3, "nzTitle", 4, "ngFor", "ngForOf"], ["nzText", "\u5229\u6DA6\u5954\u8DD1\u914D\u7F6E", 1, "divider"], ["nz-tooltip", "", "nzTooltipTitle", "\u4EF7\u683C\u548C\u6DA8\u5E45\u6709\u4E00\u4E2A\u6EE1\u8DB3\u6761\u4EF6\u5219\u505C\u6B62", 1, "tips"], ["nz-icon", "", "nzType", "info-circle", "nzTheme", "outline"], ["nz-tooltip", "", "nzTooltipTitle", "\u7559\u5B58\u591A\u4EFD\u5229\u6DA6\u65F6\u586B\u5199\uFF0C\u4E0D\u5199\u9ED8\u8BA4\u4E3A1", 1, "tips"], [3, "ngModel", "nzMin", "ngModelChange"], ["nzText", "\u9010\u5C42\u52A0\u7801\u914D\u7F6E", 1, "divider"], [3, "ngModel", "nzFormatter", "nzParser", "ngModelChange"], ["nzMin", "1", 3, "ngModel", "ngModelChange"], ["nzText", "\u4E00\u7F51\u6253\u5C3D\u914D\u7F6E", 1, "divider"], [1, "all-in-one-go"], ["class", "all-in-one-go-item", 4, "ngFor", "ngForOf"], [1, "all-in-one-go-item"], ["nz-input", "", 3, "ngModel", "ngModelChange"], ["nzMin", "1", 3, "ngModel", "nzFormatter", "nzParser", "ngModelChange"], ["nzSimple", "", 1, "spin"], [3, "nzTitle"], [1, "table", 3, "nzData", "nzShowSizeChanger", "nzPageSize", "nzPageSizeOptions", "nzScroll"], ["basicTable", ""], [4, "ngFor", "ngForOf"]], template: function GridComponent_Template(rf, ctx) { if (rf & 1) {
+    } }, decls: 53, vars: 23, consts: [[1, "form"], ["nzSpan", "8"], ["nzSpan", "4"], ["nz-input", "", "name", "name", 3, "ngModel", "ngModelChange"], [3, "ngModel", "ngModelChange"], [4, "ngIf"], [3, "nzFormatter", "nzParser", "ngModel", "ngModelChange"], ["nzText", "\u7F51\u683C2.0\u5BF9\u5E94\u5F00\u5173", 1, "divider"], [1, "checkbox"], ["nz-checkbox", "", 3, "ngModel", "ngModelChange"], ["class", "divider", "nzText", "\u5229\u6DA6\u5954\u8DD1\u914D\u7F6E", 4, "ngIf"], ["class", "divider", "nzText", "\u9010\u5C42\u52A0\u7801\u914D\u7F6E", 4, "ngIf"], ["class", "divider", "nzText", "\u4E00\u7F51\u6253\u5C3D\u914D\u7F6E", 4, "ngIf"], ["class", "all-in-one-go", 4, "ngIf"], [1, "buttons"], ["nz-button", "", "nzType", "primary", 1, "button", 3, "click"], ["class", "spin", "nzSimple", "", 4, "ngIf"], [1, "grid"], [3, "nzTitle", 4, "ngFor", "ngForOf"], ["nzText", "\u5229\u6DA6\u5954\u8DD1\u914D\u7F6E", 1, "divider"], [3, "ngModel", "disabled", "ngModelChange"], ["nz-tooltip", "", "nzTooltipTitle", "\u7559\u5B58\u591A\u4EFD\u5229\u6DA6\u65F6\u586B\u5199\uFF0C\u4E0D\u5199\u9ED8\u8BA4\u4E3A1", 1, "tips"], ["nz-icon", "", "nzType", "info-circle", "nzTheme", "outline"], [3, "ngModel", "nzMin", "ngModelChange"], ["nzText", "\u9010\u5C42\u52A0\u7801\u914D\u7F6E", 1, "divider"], [3, "ngModel", "nzFormatter", "nzParser", "ngModelChange"], ["nzMin", "1", 3, "ngModel", "ngModelChange"], ["nzText", "\u4E00\u7F51\u6253\u5C3D\u914D\u7F6E", 1, "divider"], [1, "all-in-one-go"], ["class", "all-in-one-go-item", 4, "ngFor", "ngForOf"], [1, "all-in-one-go-item"], ["nz-input", "", 3, "ngModel", "ngModelChange"], ["nzMin", "1", 3, "ngModel", "nzFormatter", "nzParser", "ngModelChange"], ["nzSimple", "", 1, "spin"], [3, "nzTitle"], [1, "table", 3, "nzData", "nzShowSizeChanger", "nzPageSize", "nzPageSizeOptions", "nzScroll"], ["basicTable", ""], [4, "ngFor", "ngForOf"]], template: function GridComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "nz-form-item");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "nz-form-label", 1);
@@ -774,8 +769,8 @@ GridComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](35, GridComponent_nz_divider_35_Template, 1, 0, "nz-divider", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](36, GridComponent_nz_form_item_36_Template, 5, 1, "nz-form-item", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](37, GridComponent_nz_form_item_37_Template, 7, 3, "nz-form-item", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](36, GridComponent_nz_form_item_36_Template, 5, 2, "nz-form-item", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](37, GridComponent_nz_form_item_37_Template, 5, 3, "nz-form-item", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](38, GridComponent_nz_form_item_38_Template, 7, 2, "nz-form-item", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](39, GridComponent_nz_divider_39_Template, 1, 0, "nz-divider", 11);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](40, GridComponent_nz_form_item_40_Template, 5, 3, "nz-form-item", 5);
@@ -1025,15 +1020,14 @@ class GridService {
     calLeftProfitNum(buyPrice, sellPrice, gridConfig, buyNum) {
         const spread = sellPrice - buyPrice;
         const profit = spread * buyNum;
-        return parseInt((profit / sellPrice).toFixed(0), 10) * gridConfig.leftProfitMul;
+        const shouldLeftNum = parseInt((profit / sellPrice).toFixed(0), 10) * gridConfig.leftProfitMul;
+        return this.calForChs(shouldLeftNum);
     }
     /**
      * 获取保留利润的出售价格
      */
     calLeftProfitSellPrice(sellPrice, gridConfig) {
-        console.log(gridConfig);
-        const leftSellPrice = sellPrice * (100 + gridConfig.maxProfitRunPercent) / 100;
-        return Math.min(leftSellPrice, gridConfig.maxProfitRunPrice);
+        return gridConfig.currentPrice * (100 + gridConfig.maxProfitRunPercent) / 100;
     }
     createOneGrid(buyPrice, sellPrice, buyLevel, gridConfig) {
         const buyNum = this.genBuyNum(buyLevel, buyPrice, gridConfig);
@@ -1059,7 +1053,11 @@ class GridService {
                 buyNum += extraBuyNum;
             }
         }
-        return buyNum;
+        return this.calForChs(buyNum);
+    }
+    // A股购买数量需要是100的整数，这里做了向下取整
+    calForChs(num) {
+        return parseInt(String(num / 100), 10) * 100;
     }
 }
 GridService.ɵfac = function GridService_Factory(t) { return new (t || GridService)(); };
